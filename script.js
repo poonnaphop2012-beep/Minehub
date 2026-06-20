@@ -1,13 +1,1 @@
-function login(){
-const email=document.getElementById('email').value;
-const password=document.getElementById('password').value;
-const message=document.getElementById('message');
-
-if(email==='admin' && password==='1234'){
-message.style.color='lime';
-message.textContent='Login Successful!';
-}else{
-message.style.color='red';
-message.textContent='Invalid Email or Password!';
-}
-}
+function login(){const e=document.getElementById('email').value;const p=document.getElementById('password').value;if(e==='admin'&&p==='1234'){window.location.href='dashboard.html';}else{document.getElementById('message').innerText='Invalid Email or Password';}}function openMyServer(){window.open('https://aternos.org/server/','_blank');}function openFakerqnServer(){window.open('https://aternos.org/server/','_blank');}
