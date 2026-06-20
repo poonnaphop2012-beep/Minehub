@@ -1,0 +1,36 @@
+body{
+margin:0;
+background:black;
+color:white;
+font-family:Arial,sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+.login-container{width:350px;text-align:center;}
+h1{color:#7CFC00;}
+.logo{width:220px;margin:15px 0;}
+input{
+width:100%;
+padding:15px;
+margin:10px 0;
+border:2px solid gold;
+border-radius:10px;
+background:#ccc;
+box-sizing:border-box;
+}
+button{
+width:100%;
+padding:15px;
+background:#7CFC00;
+border:none;
+border-radius:10px;
+font-size:22px;
+font-weight:bold;
+color:white;
+cursor:pointer;
+}
+.forgot{color:#7CFC00;text-decoration:none;display:block;margin:10px 0 20px;}
+#create-account{margin-top:20px;}
+#message{margin-top:15px;font-weight:bold;}
